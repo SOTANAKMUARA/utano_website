@@ -45,6 +45,7 @@ body{
   box-shadow: 0 7px #4682b4;
   cursor:pointer;
   border-radius:10px;
+  transition: all 1s;
 }
 
 
