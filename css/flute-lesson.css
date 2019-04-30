@@ -127,6 +127,11 @@ body{
   .menu{
   	text-align: center;
   }
+  .message{
+  	width:90%;
+  	font-size:15px;
+  	
+  }
 }
 
 .footer{
