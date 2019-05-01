@@ -122,9 +122,25 @@ body{
 	margin-top: 150px;
 }
 
+@media (max-width: 1200px) and (min-width: 768px) {
+  .btn{
+    width:50%;
+  }
+
+  .menu{
+  	text-align: center;
+  }
+
+  .message{
+  	font-size: 20px;
+  	width:80%;
+  	text-align: center;
+  }
+}
+
 @media (max-width: 767px) {
   .btn{
-    width:80%;
+    width:60%;
   }
 
   .menu{
