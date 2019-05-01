@@ -139,23 +139,22 @@ body{
 
 @media (max-width: 767px) {
   .btn{
-    width:60%;
+    width:80%;
   }
 
   .menu{
   	text-align: center;
   }
 
-  .message{
+  .contents{
   	font-size: 15px;
-  	width:80%;
-  	text-align: center;
+  	max-width: 100%;
+  	margin: 0 0 auto;
   }
-	
-  .up-lesson{
-	padding-left:75px;
+
+  .profile-img{
+  	display: none;
   }
-}
 
   .profile-img{
   	display: none;
