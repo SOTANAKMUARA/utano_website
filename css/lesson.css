@@ -1,0 +1,192 @@
+header{
+	background-color: black;
+  opacity: 0.8;
+	position :fixed;
+    top: 0;
+    left:0;
+    right:0;  
+}
+
+body{
+  font-family:courier new;
+}
+
+.menu-container .menu {
+  
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.menu-container .menu .menu-item {
+  flex: 1;
+}
+
+.menu-container .menu .menu-item a {
+  
+  opacity: 0.6;
+  transition: all 1s;
+  color: white;
+  display: block;
+  padding: 0.6em 0.4em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menu-container .menu .menu-item a:hover {
+  opacity:1;
+}
+
+.menu-container .menu .menu-item:last-child a {
+  border-right: none;
+}
+
+.main{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.title{
+  text-align: center;
+  font-weight: bold;
+  width: 70%;
+}
+
+.name1{
+  font-size: 40px;
+}
+
+.name2{
+  text-align: right;
+  font-size: 30px;
+}
+
+
+
+.up{
+  background-color:#000000;
+  width:70%;
+  height:3px;
+  margin-top:100px;
+  margin-left:30px;
+  margin-bottom:50px;
+}
+
+.down{
+  background-color:#000000;
+  width:70%;
+  height:3px;
+  margin:0 0 0 auto;
+  margin-right:30px;
+  margin-bottom: 50px;
+  margin-top:100px;
+}
+
+.message{
+  font-size:20px;
+  padding-top:100px;
+  padding-bottom:100px;
+  width:50%;
+  margin:auto;
+}
+
+.message p{
+  text-align: left;
+}
+
+.message a{
+  display: inline-block;
+  text-align: left;
+}
+
+.right-lesson{
+  display: inline-block;
+  width:20px;
+  height: 20px;
+  margin-right:20px;
+}
+
+
+
+.footer{
+  margin-top:200px;
+  background-color:#000000;
+  color:white;
+  text-align: center;
+  width:100%;
+  font-size: 15px;
+}
+
+
+
+@media screen and (max-width: 1250px) {
+  .menu-container .menu {
+    display: none;
+    width: 100%;
+  }
+  .menu-container .menu .menu-item a {
+    border-bottom: 1px solid #ccc;
+    border-right: none;
+  }
+  .menu-container .menu .menu-item:last-child a {
+    border-bottom: none;
+  }
+  
+.icon-hamburger {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+  cursor: pointer;
+}
+.icon-hamburger span {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  width: 84%;
+  height: 16%;
+  margin: -8% 0 0 -42%;
+  background: white;
+}
+.icon-hamburger span::before,
+.icon-hamburger span::after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  margin: -8% 0 0 -50%;
+  background: white;
+}
+.icon-hamburger span::before {
+  margin-top: -38%;
+}
+.icon-hamburger span::after {
+  margin-top: 19%;
+}
+.message{
+  font-size: 15px;
+}
+
+.title{
+  width: 100%;
+}
+
+.name1{
+  text-align: center;
+  font-size: 30px;
+}
+.name2{
+  text-align: right;
+  margin-right: 30px;
+  font-size: 25px;
+}
+}
+
