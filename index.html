@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>山本 詩乃 ホームページ</title>
+  <link rel="stylesheet" href="css/index.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+  <script>
+      $(function(){
+        // #で始まるリンクをクリックしたら実行されます
+        $('a[href^="#"]').click(function() {
+          // スクロールの速度
+          var speed = 600; // ミリ秒で記述
+          var href= $(this).attr("href");
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          var position = target.offset().top;
+          $('body,html').animate({scrollTop:position}, speed, 'swing');
+          return false;
+        });
+      });
+    </script>
+</head>
+<body>
+  <div class="main">
+    <!-- メインの要素 -->
+    <div class="split main-topic">
+
+      <header>
+        <div class="head"><img src="img/logo.jpg" width="15%" height="auto"></div>
+        <a class="menuButton" id="menuButton">
+          <div></div>
+          <div></div>
+          <div></div>
+        </a>
+
+      </header>
+
+      <main>
+
+        <nav id="nav">
+        <ul>
+          <li><a href="#Home"> > Home</a></li>
+          <li><a href="#Profile"> > Profile</a></li>
+          <li><a href="#Schedule"> > Schedule</a></li>
+          <li><a href="#Lesson"> > Lesson</a></li>
+          <li><a href="#Link"> > Link</a></li>
+          <li><a href="#Contact"> > Contact</a></li>
+        </ul>
+      </nav>
+      </main>
+      
+      <div class="mainimg">
+        <p class="name">Utano Yamamoto</p>
+        <p class="site">Official Web Site</p>
+        <img src="img/mainimg.jpg" width="100%" height="auto">
+      </div>
+
+
+      <!-- プロフィールの要素 -->
+      <div id="Profile" class="subtitle">Profile</div>
+        <div class="profile-img">
+          <img src="img/profile.jpg" width="100%">
+        </div>
+
+        <div class="contents">
+          <p>両親ともに音楽家の家庭に生まれ、幼少の頃より音楽教育を受ける。</p>
+          <p>東京音楽大学器楽科フルート専攻を卒業。洗足音楽大学大学院音楽研究科を卒業。</p>
+          <p>これまでにフルートを上野由恵、中野真理、斎藤和志の各氏に師事。<br>
+            ジャズ奏法を北条達子、リック・オヴァトンの各氏に師事。<br>第33回、第36回霧島国際音楽祭に参加。<br>エミリー・バイノン、ポール・エドモンド=デイヴィスの各氏のマスタークラスを受講。</p>
+          <p>従姉妹でソプラノの山本澄奈とユニット、NANONを結成しコンサートを開催。好評を博す。</p>
+          <p>現在、フルートの指導や演奏活動など精力的に行っている。</p>
+        </div>
+
+      <!-- スケジュールの要素 -->
+      <div id="Schedule" class="subtitle">Schedule</div>
+      <div class="message">
+          <p class="message-contents">
+            準備中...
+          </p>
+      </div>
+
+      <!-- レッスンの要素 -->
+      <div id="Lesson" class="subtitle">Lesson</div>
+      <div class="message">
+          <p class="message-contents">
+            文京区にある音楽教室です。フルートの個人レッスンを行っています。茗荷谷駅（丸ノ内線) ・後楽園駅（丸ノ内線・南北線）からアクセスできます。<br><br><br>  
+             <b>〜レッスンについて〜</b><br><br> 
+            まずは無料体験レッスン（30分）にお越しください♪​<br>楽器をお持ちでない方は、無料体験レッスンでのみ貸し出しができます。<br><br>
+            <b>〜レッスン料金について〜</b><br><br> 
+            ①月３回（１回４５分）　１万円〜<br>
+            ②１レッスン（４５分）　４０００円〜<br><br> 
+
+            興味のある方は、<a href="#Contact">こちら</a>よりお気軽にお問い合わせください♪♪
+          </p>
+      </div>
+
+      <!-- リンクの要素 -->
+      <div id="Link" class="subtitle">Link</div>
+      <div class="message">
+          <p class="message-contents">
+            準備中...
+          </p>
+      </div>
+
+      <!-- コンタクトの要素 -->
+      <div id="Contact" class="subtitle">Contact</div>
+      <div class="message">
+        体験レッスンのお申し込み、ご質問等はこちらから🎶
+
+        <form name="contact" method="POST" netlify>
+
+          <div class="form">
+          <label>お名前(必須): </label><br>
+          <input type="text" name="name" placeholder="例：）山田 太郎" required>
+          </div>
+          <div class="form">
+          <label>メールアドレス(必須): </label><br>
+          <input type="email" name="email" placeholder="例：）aaaaaaaa@gmail.com" required>
+          </div>
+          <div class="form">
+            <label>件名: </label><br>
+            <input type="text" name="title" placeholder="例：）体験レッスンの申し込み">
+          </div>
+          <div class="form">
+            <label>内容: </label><br>
+            <textarea name="message"></textarea>
+          </div>
+          <div class="button">
+            <button class="contact-submit" type="submit">送信</button>
+          </div>
+
+        </form>
+      </div>
+
+
+
+
+
+
+
+    </div>
+    <!-- メニューバーの要素 -->
+    <div class="split menu">
+      <ul class="menu">
+        <div class="logo"><img src="img/logo.jpg" width="40%" height="auto"></div>
+        <li class="menu-item"><a href="#">Home</a></li>
+        <li class="menu-item"><a href="#Profile">Profile</a></li>
+        <li class="menu-item"><a href="#Schedule">Schedule</a></li>
+        <li class="menu-item"><a href="#Lesson">Lesson</a></li>
+        <li class="menu-item"><a href="#Link">Link</a></li>
+        <li class="menu-item"><a href="#Contact">Contact</a></li>
+        <li class="sns fb"><a href="https://www.facebook.com/ozmusicjapan"><img src="img/iconFb2.png" width="30" height="30"></a></li>
+        <li class="sns ame"><a href="https://ameblo.jp/ozmusicschool"><img src="img/iconAmeblog.png" width="30" height="30"></a></li>
+      </ul>
+      
+      </ul>
+    </div>
+
+
+    
+
+  </div>
+
+
+
+
+  <footer>
+    <div class="footer">
+      <p>COPYRIGHT&#169; Utano Yamamoto ALL RIGHTS RESERVED.</p>
+    </div>
+  </footer> 
+  <script src="script.js"></script>
+</body>
+</html>
