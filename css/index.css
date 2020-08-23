@@ -127,7 +127,7 @@ input, textarea{
 }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1250px){
   .menu{
     display: none;
   }
