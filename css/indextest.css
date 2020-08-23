@@ -1,0 +1,86 @@
+.main{
+  display: table;
+  width: 100%;
+}
+
+.maining{
+  background-color: #000000;
+}
+
+.subtitle{
+  font-family: 'fantasy',fantasy;
+  font-size: 40px;
+  text-align: center;
+  text-decoration : underline;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.split{
+  display: table-cell;
+}
+
+
+.name{
+  font-family: 'fantasy',fantasy;
+  font-size: 40px;
+  text-align: center;
+  text-decoration : underline;
+}
+
+.site{
+  font-family: 'fantasy',fantasy;
+  font-size: 28px;
+  text-align: center;
+  text-decoration : underline;
+}
+
+.main-topic{
+
+  width: 80%;
+}
+.menu{
+  position: fixed;
+  width: 20%;
+}
+ul {
+  margin-left: 30px;
+  list-style: none;
+  font-family: 'fantasy',fantasy;
+  /*font-family: 'Modern Antiqua', 'Noto Sans JP',serif;*/
+  font-size: 17px;
+}
+a{
+  color: #000;
+}
+.menu-item{
+  margin-top: 20px;
+}
+.sns{
+  margin-top: 40px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+
+
+.footer{
+  margin-top:200px;
+  background-color:#000000;
+  color:white;
+  text-align: center;
+  width:100%;
+  font-size: 15px;
+}
+
+
+@media screen and (max-width: 800px){
+
+
+
+
+ 
+
+
+}
+
