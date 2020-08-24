@@ -242,7 +242,8 @@ input, textarea{
 
 
   .profile-img{
-    width: 80%;
+    width: 60%;
+    transform: translate(20%,0);
   }
   .contents{
     width: 90%;
