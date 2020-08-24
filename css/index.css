@@ -247,6 +247,9 @@ input, textarea{
   .contents{
     width: 90%;
   }
+  .subtitle{
+    font-size: 60px;
+  }
 
    
 
