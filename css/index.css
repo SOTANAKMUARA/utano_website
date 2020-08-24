@@ -142,6 +142,7 @@ input, textarea{
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 1;
    }
 
 
@@ -253,9 +254,21 @@ input, textarea{
   .profile-img{
     width: 60%;
     transform: translate(20%,0);
+    z-index: 0;
   }
   .contents{
-    width: 90%;
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .message-contents{
+    font-size: 30px;
+  }
+  .message{
+    font-size: 30px;
+  }
+  .form{
+    font-size: 30px;
   }
 
   .subtitle{
