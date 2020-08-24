@@ -255,7 +255,7 @@ input, textarea{
     transform: translate(20%,0);
   }
   .contents{
-    width: 90%;
+    width: 100%;
   }
 
   .subtitle{
