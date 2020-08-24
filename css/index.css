@@ -162,6 +162,7 @@ input, textarea{
     position: fixed;
     background-color:#FFFFFF;
     width: 100%;
+    z-index: 1;
   }
 
   .menuButton{
@@ -171,12 +172,12 @@ input, textarea{
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 1;
+    z-index: 2;
   }
 
   .menuButton div{
-    height: 2px;
-    width: 60%;
+    height: 3px;
+    width: 50%;
     background-color: #000000;
     position: absolute;
     top: 50%;
@@ -274,7 +275,7 @@ input, textarea{
   .subtitle{
     font-size: 60px;
     margin-top: 150px;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
   }
 
    
