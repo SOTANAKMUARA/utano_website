@@ -240,13 +240,16 @@ input, textarea{
     text-decoration: underline;
   }
 
+  .maining{
+
+  }
   .name{
     font-size: 60px;
+    margin-top: 150px;
   }
   .site{
     font-size: 48px;
   }
-
   .profile-img{
     width: 60%;
     transform: translate(20%,0);
@@ -254,6 +257,7 @@ input, textarea{
   .contents{
     width: 90%;
   }
+
   .subtitle{
     font-size: 60px;
     margin-top: 150px;
