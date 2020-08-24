@@ -240,6 +240,12 @@ input, textarea{
     text-decoration: underline;
   }
 
+  .name{
+    font-size: 60px;
+  }
+  .site{
+    font-size: 48px;
+  }
 
   .profile-img{
     width: 60%;
