@@ -279,8 +279,8 @@ input, textarea{
     margin-bottom: 150px;
   }
   .sns{
-    margin-right: 100px;
-    border-bottom: none;
+    margin-left: 100px;
+    border-bottom: 0px solid #ccc;
   }
 
    
