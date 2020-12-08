@@ -286,7 +286,9 @@ input, textarea{
     border-bottom: 1px solid #FFFFFF;
   }
 
-   
+  .message-contents{
+    color: gray;
+  }
 
 
 }
