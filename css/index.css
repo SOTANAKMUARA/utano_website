@@ -98,10 +98,6 @@ a{
 }
 
 .message-contents2{
-  display: inline-block;
-  text-align: left;
-  font-size: 15px;
-  font-family: 'fantasy',fantasy;
   text-decoration: underline;
   color: #0000EE;
 }
