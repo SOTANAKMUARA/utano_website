@@ -102,17 +102,8 @@ a{
   text-align: left;
   font-size: 15px;
   font-family: 'fantasy',fantasy;
-  text-decoration:underline;
-  color:orange;
-}
-
-.message-contents2:visited{
-  display: inline-block;
-  text-align: left;
-  font-size: 15px;
-  font-family: 'fantasy',fantasy;
-  text-decoration:underline;
-  color:#551A8B;
+  text-decoration: underline;
+  color: #0000EE;
 }
 
 .form{
