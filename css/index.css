@@ -92,8 +92,9 @@ a{
 .message-contents{
   display: inline-block;
   text-align: left;
-  font-size: 17px;
+  font-size: 1px;
   font-family: 'Hiragino Kaku Gothic Pro';
+  text-decoration:underline
 }
 
 .form{
