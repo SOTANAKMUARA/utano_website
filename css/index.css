@@ -101,9 +101,13 @@ a{
   display: inline-block;
   text-align: left;
   font-size: 15px;
-  text-decoration:underline;
   font-family: 'fantasy',fantasy;
   
+}
+
+a:hover{
+  text-decoration:underline;
+  color:#551A8B;
 }
 
 .form{
