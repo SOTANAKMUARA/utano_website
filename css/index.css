@@ -98,6 +98,7 @@ a{
 }
 
 .message-contents2{
+  text-align: center;
   text-decoration: underline;
   color: #0000EE;
 }
